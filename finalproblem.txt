@@ -1,0 +1,26 @@
+Using test first development, write the program described below.
+
+A text file contains several lines of lowercase text. Write a program that reads the file and prints the number of Semordnilap that are in it.
+
+For the purpose of this program, a Semordnilap is defined as a word, of length greater than one, where the word is of correct spelling and the reverse of the word is also a correct spelling for a different word.
+
+For example, if the file contains the text
+
+some things are evil mom
+                      
+The result is:
+
+Number of Semordnilap is 2.
+
+End of output.
+
+mom is not a Semordnilap as it does not spell as a different word in reverse.
+
+The program can find if the spelling for a word is correct by using the 
+service:
+http://agile.cs.uh.edu/spell?check=WORD where WORD can be substituted
+with the actual word/string.
+
+Design the program in a way that 
+-we may use a different service to check the spelling in the future
+-we may read the text from another source instead of a file
